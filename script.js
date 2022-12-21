@@ -51,7 +51,7 @@ function prompts() {
 }
 
 // Provided code - Create button for generate ID:
-var generateBtn = document.querySelector("#generate"); //add event listener with call back to prompt function(button calls prompt > prompt function calls generatePassword)
+var generateBtn = document.querySelector("#generate"); 
 
 // Display - function for generatePassword:
 function generatePassword() {
