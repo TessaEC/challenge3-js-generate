@@ -99,3 +99,8 @@ Button code was apart of javascript starter code
 ## Usage
 
 This webpage was created to generate a random password according to the users criteria. After the user answers a series of window questions a random password is generated for them to use.
+
+
+Website URL for reference:
+
+https://tessaec.github.io/challenge3-js-generate/

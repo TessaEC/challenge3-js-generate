@@ -22,12 +22,12 @@ function prompts() {
 
   if (isNaN(lengthPrompt)) {
     alert("LENGTH MUST BE A NUMBER!");
-    return
+    return null;
   } 
 
   if (lengthPrompt < 8 || lengthPrompt > 128) {
     alert("CHARACTER AMOUNT SHOULD BE BETWEEN 8 AND 128 CHARACTERS!");
-    return
+    return null;
   }
 
 // Make string a number:
@@ -64,13 +64,12 @@ function generatePassword() {
 
 //loop:
   for(var i =0 ;i <passwordLength; i++){
-    //add random character from possOption to password
+
+//add random character from possOption to password
     var index = Math.floor(Math.random() * passOption.length);
     password += passOption[index];
   }
-
   return password;
-
 }
 
 // Provided code - Write password to the #password input
@@ -79,7 +78,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
 // Event listener for when button is clicked
