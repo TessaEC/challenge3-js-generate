@@ -88,7 +88,7 @@ Button code was apart of javascript starter code
 ![image](https://user-images.githubusercontent.com/118077000/208983729-0336d659-f064-477a-a59c-c26fe5414937.png)
 
 
-#### If user inputs a character length of < 8 or > 128, a different alert will show:
+#### If user inputs a character length of < 8 or > 128 an alert will show:
 
 
 ![image](https://user-images.githubusercontent.com/118077000/208984012-3eeecdc3-b485-4555-8eb2-5552528d0b43.png)
